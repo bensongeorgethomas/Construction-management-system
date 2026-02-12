@@ -41,6 +41,23 @@
 - **Automated Notifications**: Email alerts for registration, status updates, and critical events.
 - **SMS Integration**: Built-in capability for SMS and WhatsApp notifications (via Infobip).
 
+## 📸 Screen Gallery
+
+| **Admin Dashboard** | **Worker Portal** |
+|:---:|:---:|
+| <img src="screenshots/admin_dashboard.png" alt="Admin Dashboard" width="400"> | <img src="screenshots/worker_dashboard.png" alt="Worker Portal" width="400"> |
+| _Centralized project & task management_ | _Real-time attendance & task tracking_ |
+
+| **Login Page** | **Client Portal** |
+|:---:|:---:|
+| <img src="screenshots/login_page.png" alt="Secure Login" width="400"> | <img src="screenshots/client_dashboard.png" alt="Client Portal" width="400"> |
+| _Secure role-based authentication_ | _Project progress tracking_ |
+
+| **Supplier Portal** | **Inventory Management** |
+|:---:|:---:|
+| <img src="screenshots/supplier_dashboard.png" alt="Supplier Portal" width="400"> | <img src="screenshots/inventory_management.png" alt="Inventory" width="400"> |
+| _Manage orders & supply requests_ | _Track material stock & deliveries_ |
+
 ## 🛠️ Technology Stack
 - **Backend**: PHP 7.4+ (Vanilla)
 - **Frontend**: HTML5, CSS3, JavaScript, Chart.js

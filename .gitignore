@@ -8,6 +8,7 @@ conn.php
 
 # User Uploads
 /uploads
+.tmp.driveupload/
 
 # System & IDE
 .DS_Store

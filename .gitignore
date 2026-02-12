@@ -1,0 +1,18 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Configuration & Secrets
+conn.php
+.env
+
+# User Uploads
+/uploads
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp

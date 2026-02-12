@@ -1,0 +1,21 @@
+<?php
+// Database Configuration
+// Rename this file to 'conn.php' and update with your local credentials
+
+$servername = "localhost";
+$username = "root";      // Default XAMPP username
+$password = "";          // Default XAMPP password (empty)
+$database = "your_database_name";
+
+$port = 3306; // Default MySQL port (change to 3307 if using MariaDB custom port)
+
+$conn = new mysqli($servername, $username, $password, $database, $port);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$conn->set_charset("utf8mb4");
+// Set timezone
+$conn->query("SET time_zone = '+05:30'");
+?>

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="assets/homestyle.css">
 </head>
 <body>
 
@@ -101,7 +101,7 @@
                 <div class="projects-grid">
                     <a href="projectone.php" class="project-card">
                         <div class="img-wrapper">
-                            <img src="corporate.jpg" alt="Modern Office Building">
+                            <img src="assets/corporate.jpg" alt="Modern Office Building">
                         </div>
                         <div class="project-content">
                             <h3>Downtown Corporate Tower</h3>
@@ -112,7 +112,7 @@
                     
                     <a href="projecttwo.php" class="project-card">
                         <div class="img-wrapper">
-                            <img src="villa.jpg" alt="Luxury Residential Complex">
+                            <img src="assets/villa.jpg" alt="Luxury Residential Complex">
                         </div>
                         <div class="project-content">
                             <h3>Lakeside Villa Community</h3>
@@ -123,7 +123,7 @@
                     
                     <a href="projectthree.php" class="project-card">
                         <div class="img-wrapper">
-                            <img src="mall.jpg" alt="Retail Shopping Center">
+                            <img src="assets/mall.jpg" alt="Retail Shopping Center">
                         </div>
                         <div class="project-content">
                             <h3>City Center Retail Hub</h3>

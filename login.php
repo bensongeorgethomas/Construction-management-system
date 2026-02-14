@@ -110,10 +110,10 @@ try {
 
         // Redirect based on role
         $redirectMap = [
-            'admin'    => 'dashboard.php',
-            'client'   => 'client_dashboard.php',
-            'worker'   => 'worker_dashboard.php',
-            'supplier' => 'supplier_dashboard.php' // <-- ADDED SUPPLIER
+            'admin'    => 'admin/dashboard.php',
+            'client'   => 'client/client_dashboard.php',
+            'worker'   => 'worker/worker_dashboard.php',
+            'supplier' => 'supplier/supplier_dashboard.php'
         ];
 
         if (isset($redirectMap[$user['role']])) {
